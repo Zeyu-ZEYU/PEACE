@@ -25,6 +25,10 @@ simulation:
   A **PEACE-only** helper CLI to (1) prepare the Azure trace, (2) start a PEACE
   server command, and (3) replay the trace.
 
+- `measurements/`  
+  Runnable measurement experiments for the paper's **Motivation** section (request-length
+  distributions, FIFO/Reservation/Priority limitations, preemption pressure).
+
 - `ablation_ipdps26/`  
   Runnable ablation-study harness aligned with the paper’s ablations:
   **/PE**, **/Dis**, **/CoL**, **/FSP**.

@@ -21,19 +21,19 @@ components by testing PEACE variants:
 
 ## What you get
 
-- `trace_utils.py`  
+- `trace_utils.py`
   Prepare a workload trace from Azure LLM Inference Trace CSV.
   It also supports the paper's long-input resampling (e.g., 100K–500K tokens).
 
-- `run_workload.py`  
+- `run_workload.py`
   Replays a trace against an OpenAI-compatible endpoint (streaming),
   records per-request metrics to `records.jsonl`, and writes `summary.json`.
 
-- `start_server.py`  
+- `start_server.py`
   Convenience wrapper to launch a server command with the **variant-specific**
   environment variables (you can replace the command with your own).
 
-- `analyze_ablation.py`  
+- `analyze_ablation.py`
   Reads multiple `summary.json` files, produces plots and a CSV table.
 
 All code and comments are **English-only** as requested.
@@ -49,7 +49,7 @@ All code and comments are **English-only** as requested.
 Install Python deps:
 
 ```bash
-cd PEACE/ablation_ipdps26
+cd PEACE/exp/ablation_ipdps26
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
