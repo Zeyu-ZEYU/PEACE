@@ -1,0 +1,11 @@
+{
+  "n_requests": 50.0,
+  "avg_ttft_s": 39.0,
+  "avg_tbt_s": 0.9500000000000006,
+  "avg_response_time_s": 64.0,
+  "prefill_throughput_tps": 105130.81203374281,
+  "decode_throughput_tps": 249.26472284002543,
+  "prefill_window_s": 85.92353492999463,
+  "decode_window_s": 71.92353492999463,
+  "trace_makespan_s": 110.92353492999463
+}

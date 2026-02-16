@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "note": "Sample profile based on the paper's Large-Scale simulation tables. These are constant curves (1 point). Replace with your own profiled curves for more realistic length-dependent simulation."
+  },
+  "methods": {
+    "sarathi": {
+      "glm-4": {
+        "needlebench": {
+          "ttft_s": [[0, 284]],
+          "tbt_s": [[0, 1.71]],
+          "response_time_s": [[0, 537]],
+          "prefill_tps": [[0, 218]],
+          "decode_tps": [[0, 5.8]],
+          "kv_migration_s": [[0, 0]]
+        },
+        "bookcorpus": {
+          "ttft_s": [[0, 130]],
+          "tbt_s": [[0, 0.98]],
+          "response_time_s": [[0, 221]],
+          "prefill_tps": [[0, 285]],
+          "decode_tps": [[0, 9.1]],
+          "kv_migration_s": [[0, 0]]
+        }
+      },
+      "internlm2.5": {
+        "needlebench": {
+          "ttft_s": [[0, 246]],
+          "tbt_s": [[0, 1.44]],
+          "response_time_s": [[0, 386]],
+          "prefill_tps": [[0, 231]],
+          "decode_tps": [[0, 8.1]],
+          "kv_migration_s": [[0, 0]]
+        },
+        "bookcorpus": {
+          "ttft_s": [[0, 123]],
+          "tbt_s": [[0, 0.85]],
+          "response_time_s": [[0, 202]],
+          "prefill_tps": [[0, 290]],
+          "decode_tps": [[0, 9.7]],
+          "kv_migration_s": [[0, 0]]
+        }
+      }
+    },
+    "peace": {
+      "glm-4": {
+        "needlebench": {
+          "ttft_s": [[0, 39]],
+          "tbt_s": [[0, 0.95]],
+          "response_time_s": [[0, 64]],
+          "prefill_tps": [[0, 1573]],
+          "decode_tps": [[0, 33]],
+          "kv_migration_s": [[0, 0]]
+        },
+        "bookcorpus": {
+          "ttft_s": [[0, 22]],
+          "tbt_s": [[0, 0.67]],
+          "response_time_s": [[0, 34]],
+          "prefill_tps": [[0, 1607]],
+          "decode_tps": [[0, 41]],
+          "kv_migration_s": [[0, 0]]
+        }
+      },
+      "internlm2.5": {
+        "needlebench": {
+          "ttft_s": [[0, 34]],
+          "tbt_s": [[0, 0.78]],
+          "response_time_s": [[0, 56]],
+          "prefill_tps": [[0, 1587]],
+          "decode_tps": [[0, 35]],
+          "kv_migration_s": [[0, 0]]
+        },
+        "bookcorpus": {
+          "ttft_s": [[0, 17]],
+          "tbt_s": [[0, 0.59]],
+          "response_time_s": [[0, 26]],
+          "prefill_tps": [[0, 1645]],
+          "decode_tps": [[0, 45]],
+          "kv_migration_s": [[0, 0]]
+        }
+      }
+    }
+  }
+}

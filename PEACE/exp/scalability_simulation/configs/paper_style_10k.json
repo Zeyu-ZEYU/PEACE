@@ -1,0 +1,10 @@
+{
+  "note": "Example parameters roughly matching the paper's Large Scale Simulation description",
+  "num_gpus": 10000,
+  "gpus_per_server": 8,
+  "servers_per_rack": 32,
+  "peace_prefill_fraction": 0.2,
+  "sarathi_gpus_per_request": 8,
+  "tp_size": 8,
+  "arrival_rate": 1.0
+}
